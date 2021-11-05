@@ -1,5 +1,6 @@
 package com.github.nestororan;
 
+import com.github.nestororan.Student;
 
 import org.junit.*;
 import java.util.*;

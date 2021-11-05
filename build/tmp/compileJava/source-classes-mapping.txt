@@ -1,10 +1,8 @@
-gradleproject1/Module.java
- gradleproject1.Module
-gradleproject1/Main.java
+com/github/nestororan/Main.java
  gradleproject1.Main
-gradleproject1/myTest.java
- myTest
-gradleproject1/Student.java
- gradleproject1.Student
-gradleproject1/Programme.java
+com/github/nestororan/Programme.java
  gradleproject1.Programme
+com/github/nestororan/Student.java
+ com.github.nestororan.Student
+com/github/nestororan/Module.java
+ gradleproject1.Module
