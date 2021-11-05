@@ -19,13 +19,12 @@ public class Student {
     List<String> courses;
     List<String> modules;
     
-    public Student(String name, int age, String dob, int ID, String username,List<String> courses, List<String> modules) {
+    public Student(String name, int age, String dob, int ID,List<String> courses, List<String> modules) {
         
         this.name=name;
         this.age=age;
         this.dob=dob;
         this.ID=ID;
-        this.username=username;
         this.courses=courses;
         this.modules=modules;
     }

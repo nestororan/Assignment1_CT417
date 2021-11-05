@@ -2,6 +2,8 @@ gradleproject1/Module.java
  gradleproject1.Module
 gradleproject1/Main.java
  gradleproject1.Main
+gradleproject1/myTest.java
+ myTest
 gradleproject1/Student.java
  gradleproject1.Student
 gradleproject1/Programme.java

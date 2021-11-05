@@ -7,6 +7,7 @@ mainClassName = 'gradleproject1.Main'
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -18,5 +19,19 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.terasoluna.gfw/terasoluna-gfw-jodatime
     implementation group: 'org.terasoluna.gfw', name: 'terasoluna-gfw-jodatime', version: '5.7.0.RELEASE'
+
+    implementation fileTree(dir: 'lib', include: 'junit-4.12.jar')
+
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.github.nestororan'
+            artifactId = 'Assignment1_CT417'
+            version = 'CT417 release'
+            from components.java
+        }
+    }
 
 }
