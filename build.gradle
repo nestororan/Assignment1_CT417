@@ -3,7 +3,13 @@ apply plugin: 'jacoco'
 apply plugin: 'application'
 
 
-mainClassName = 'gradleproject1.Main'
+mainClassName = 'gradleproject1.Main
+
+
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
 
 repositories {
     mavenCentral()
